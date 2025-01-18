@@ -13,7 +13,7 @@ export const appConfig: ApplicationConfig = {
 
       return {
         link: httpLink.create({
-          uri: '<%= endpoint %>',
+          uri: 'https://graphql.anilist.co',
         }),
         cache: new InMemoryCache(),
       };
