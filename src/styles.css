@@ -1,0 +1,32 @@
+/* You can add global styles to this file, and also import other style files */
+/* You can add global styles to this file, and also import other style files */
+
+* {
+    /* Add your styles here */
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+    font-family: "Roboto", serif;
+    font-size: 1.15rem;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "wdth" 100;
+
+    color: white;
+    
+}
+
+html {
+    background-color: #111111;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    max-width: 1100px;
+    margin: 0 auto;
+    align-items: center;
+    
+}

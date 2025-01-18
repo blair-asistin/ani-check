@@ -1,0 +1,48 @@
+.login__section {
+    background-color: #111111;
+    display: flex;
+    width: 100%;
+    height: 100%;
+    padding-top: 4.5em;
+}
+
+html {
+    
+}
+
+.loginForm {
+    display: flex;
+    flex-direction: column;
+    margin: 1em 0;
+    width: 100%;
+    background-color: #212328;
+    padding: 1em;
+    border-radius: 5px;
+}
+
+.container {
+    flex-direction: column;
+}
+
+.__username, .__password{
+    margin: 1em 0;
+    
+}
+
+.input__field {
+    background-color: #3e404a;
+    border-style: none;
+    height: 1.5em;
+    
+}
+
+.input__field:focus-visible {
+    outline: 3px solid #A35C7A;
+}
+
+.submit {
+    margin-top: 1em;
+    background-color: #A35C7A;
+    border-style: none;
+    padding: 0.5em;
+}
