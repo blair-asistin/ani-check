@@ -1,1 +1,12 @@
-<p>dashboard works!</p>
+@if (loading) {
+    <div>Loading...</div>
+  }
+  @if (error) {
+    <div>Error :</div>
+  }
+ 
+   
+    @for (post of posts; track $index) {
+      <p style="color: black;">{{ post.title.english}}: {{ post.id }}</p>
+      
+    }
